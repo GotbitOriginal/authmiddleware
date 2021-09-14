@@ -22,6 +22,7 @@ github.com/envoyproxy/go-control-plane v0.9.9-0.20210512163311-63b5d3c536b0/go.m
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
 github.com/go-sql-driver/mysql v1.6.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LBy8hT2VhHyBg=
+github.com/golang-jwt/jwt v3.2.1+incompatible/go.mod h1:8pz2t5EyA70fFQQSrl6XZXzqecmYZeUEB8OUGHkxJ+I=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod h1:SBH7ygxi8pfUlaOkMMuAQtPIUF8ecWP5IEl/CR7VP2Q=
 github.com/golang/mock v1.1.1/go.mod h1:oTYuIxOrZwtPieC+H1uAHpcLFnEyAGVDL/k47Jfbm0A=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
@@ -49,6 +50,8 @@ github.com/gotbitoriginal/auth v0.0.0-20210914153229-e7ff23924818 h1:O3IDUs4BSGN
 github.com/gotbitoriginal/auth v0.0.0-20210914153229-e7ff23924818/go.mod h1:ciwsGR9uHjgH9v8egeG2p+RtRY4me8eGYvM4OtA6jQA=
 github.com/gotbitoriginal/auth v0.1.0 h1:rPiQYmujZTBQ+8kMmbCXppaltUaC8LuTg31ji5E/MeQ=
 github.com/gotbitoriginal/auth v0.1.0/go.mod h1:ciwsGR9uHjgH9v8egeG2p+RtRY4me8eGYvM4OtA6jQA=
+github.com/gotbitoriginal/auth v0.1.1 h1:xSAdmUZJv8w7K+qCG3L4Bzz8tjLdXu9c3bcm1aO7KrM=
+github.com/gotbitoriginal/auth v0.1.1/go.mod h1:AsFoSsDlM53l/Gm06WJ9A0BKzbqjg8/UfK5nbgRxu98=
 github.com/grpc-ecosystem/grpc-gateway v1.16.0/go.mod h1:BDjrQk3hbvj6Nolgz8mAMFbcEtjT1g+wF4CSlocrBnw=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
