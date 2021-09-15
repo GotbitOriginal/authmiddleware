@@ -49,8 +49,8 @@ func (am *AuthMiddleware) Auth(next http.Handler) http.Handler {
 
 		ctx = context.WithValue(ctx, AuthStatus, true)  // nolint:staticcheck
 		ctx = context.WithValue(ctx, ID, sess.GetId())  // nolint:staticcheck
-		ctx = context.WithValue(ctx, Login, sess.Login) // nolint:staticcheck
-		ctx = context.WithValue(ctx, Role, sess.Role)   // nolint:staticcheck
+		ctx = context.WithValue(ctx, Login, sess.GetLogin()) // nolint:staticcheck
+		ctx = context.WithValue(ctx, Role, sess.GetRole())   // nolint:staticcheck
 
 		next.ServeHTTP(w, r.WithContext(ctx))
 	})
